@@ -14,10 +14,6 @@
 <script setup lang="ts">
 import { provide, ref } from 'vue'
 
-export interface MovieGenres {
-  [key: string]: boolean;
-}
-
 export interface Movies {
   id: number | null;
   title: string;
